@@ -7,7 +7,8 @@ A python3 API for interacting with the Morpheus RESt client
 
 Simple installation:
 
-```pip3 install pypheus
+```
+pip3 install pypheus
 ```
 Each element of the above can be independently overridden using the "connection_data" object parameter for each action.
 
@@ -21,7 +22,7 @@ storage = Storage(host,username,password)
 info = storage.get_all_volumes()
 for v in info['storageVolumes']:
     print(v)
-    ```
+```
 
 ## Functions
 
