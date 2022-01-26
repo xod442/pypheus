@@ -18,7 +18,7 @@ You can also use dynamic values from the datastore. See the
 **Note** :you will import pypheus into your python script.
 
 ```
-from pypheus.torage import Storage
+from pypheus.storage import Storage
 storage = Storage(host,username,password)
 info = storage.get_all_volumes()
 for v in info['storageVolumes']:
