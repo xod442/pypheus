@@ -7,7 +7,11 @@ setup(
     author = 'Rik Kauffman',
     author_email = 'rick@rickkauffman.com',
     url = 'https://github.com/xod442/pypheus',
-    download_url = 'https://github.com/xod442/pypheus.git',
+    download_url = 'https://github.com/xod442/pypheus/archive/refs/tags/v.1.0.1.zip',
     keywords = ['morpheus', 'api', 'python'],
+    install_requires=[            # I get to this in a second
+          'requests',
+          'urllib3',
+      ],
     classifiers = [],
 )

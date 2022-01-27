@@ -30,3 +30,4 @@ for v in info['storageVolumes']:
 * `network.py` - Various network API calls
 * `storage.py` - Get storage buckets and volumes
 * `monitoring.py` - Alerts, incidents, contacts, checks
+* `logs.py` - Log dump
