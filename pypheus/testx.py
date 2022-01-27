@@ -9,6 +9,7 @@ import urllib3
 urllib3.disable_warnings()
 from network import Network
 from storage import Storage
+from logs import Logs
 from monitoring import Monitoring
 import json
 import requests
@@ -16,7 +17,7 @@ import requests
 host='10.132.0.153'
 username='xod442'
 password='ilike2Rock@'
-'''
+
 nets = Network(host,username,password)
 info = nets.get_all_networks()
 print(info)
@@ -33,12 +34,13 @@ info = monitor.get_all_incidents()
 print(info)
 info = monitor.get_all_alerts()
 print(info)
-info = monitor.get_all_contacts()
-print(info['storageVolumes'])
+#info = monitor.get_all_contacts()
+#print(info['storageVolumes'])
 
-'''
 storage = Storage(host,username,password)
 info = storage.get_all_volumes()
+print(info)
+'''
 for v in info['storageVolumes']:
     print('===========================================')
     print(v)
@@ -49,4 +51,8 @@ info = storage.get_all_servers()
 print(info)
 info = storage.get_all_server_types()
 print(info)
-'''
+
+
+logs = Logs(host,username,password)
+info = logs.get_all_logs()
+print(info)

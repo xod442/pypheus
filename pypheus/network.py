@@ -7,7 +7,7 @@ Various network API calls
 """
 import urllib3
 urllib3.disable_warnings()
-from pypheus.auth import Auth
+from auth import Auth
 import json
 import requests
 
