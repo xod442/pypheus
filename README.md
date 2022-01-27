@@ -29,7 +29,7 @@ for v in info['storageVolumes']:
 ```
 
 ## Documentation
-[Documentation for pypheus can be found here](apidocs.morpheusdata.com)
+[Documentation for pypheus can be found here](http://apidocs.morpheusdata.com)
 
 ## Functions
 
