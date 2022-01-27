@@ -12,15 +12,18 @@ pip3 install pypheus
 ```
 Each element of the above can be independently overridden using the "connection_data" object parameter for each action.
 
-You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
-
 **Note** :you will import pypheus into your python script.
 
 ```
 from pypheus.storage import Storage
+
+# Create an instance of the storage class, pass credentials
 storage = Storage(host,username,password)
+
+# Call the API
 info = storage.get_all_volumes()
+
+# Return will be json
 for v in info['storageVolumes']:
     print(v)
 ```
