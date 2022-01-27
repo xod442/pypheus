@@ -10,9 +10,10 @@ Simple installation:
 ```
 pip3 install pypheus
 ```
-Each element of the above can be independently overridden using the "connection_data" object parameter for each action.
+You can reference the Morpheus API documetation to see examples of what gets
+returned when you make a request.
 
-**Note** :you will import pypheus into your python script.
+**Note** :you will need to import pypheus into your python script.
 
 ```
 from pypheus.storage import Storage
