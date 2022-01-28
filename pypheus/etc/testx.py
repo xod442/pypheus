@@ -7,10 +7,10 @@ This is a test file that tests the API
 """
 import urllib3
 urllib3.disable_warnings()
-from network import Network
-from storage import Storage
-from logs import Logs
-from monitoring import Monitoring
+from pypheus.network import Network
+from pypheus.storage import Storage
+from pypheus.logs import Logs
+from pypheus.monitoring import Monitoring
 import json
 import requests
 

@@ -7,7 +7,7 @@ Various storage API calls
 """
 import urllib3
 urllib3.disable_warnings()
-from auth import Auth
+from pypheus.auth import Auth
 import json
 import requests
 
