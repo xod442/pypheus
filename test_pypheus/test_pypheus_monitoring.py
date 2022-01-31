@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Module for testing the functions in pypheus.network.
+Module for testing the functions in pypheus.monitoring.
 """
 
 import os
