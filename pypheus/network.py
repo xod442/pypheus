@@ -41,11 +41,11 @@ class Network(Auth):
 
     	if id:
     		id = str(id)
-    		apps_url = self.endpoint + '/networks/types' + '/id'
+    		apps_url = self.endpoint + '/network-types' + '/id'
 
     	else:
 
-    		apps_url = self.endpoint + '/networks/types'
+    		apps_url = self.endpoint + '/network-types'
 
     	response = requests.get(apps_url, headers=self.headers,verify=False)
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding=utf-8
-# author: @netwookie
+# author: @netwookie.
 # -*- coding: utf-8 -*-
 """
 Various storage API calls
