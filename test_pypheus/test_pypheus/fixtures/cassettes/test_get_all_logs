@@ -1,0 +1,128 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - BEARER 0d67fbf0-a9d2-4d30-8e69-9caa6dacf21b
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://10.132.0.153/api/logs
+  response:
+    body:
+      string: '{"sort":{"ts":"desc"},"offset":0,"start":"2022-01-25T16:41:01Z","end":"2022-02-01T16:41:01Z","data":[{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-8]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-8]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","logSignature":"bc81db0851933d1ac3da7a2f257da38557cb2650b963c7aff6a918611410af14","objectId":"1","seq":434,"_id":"92314c40-63d5-4d9c-8a94-29d61bf0036a","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-8]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-8]
+        DefaultUserService.authenticate","logSignature":"ae660df244795b9e251d68dccdadc4f3d0fba26e32113b325cacf0a3d2b7a9ba","objectId":"1","seq":433,"_id":"d5289dbf-af64-43f3-83f7-60c98404f7c8","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-6]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-6]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","logSignature":"49f12b7293e06474961c6f4c04094758daa978b18cf6bd52d45efa63164f6d70","objectId":"1","seq":432,"_id":"0d36eb4f-bade-40c6-8ed8-617d5cd292f3","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-6]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-6]
+        DefaultUserService.authenticate","logSignature":"2b2ae93e670a5e16a1ba6ce6b842edf667fbbf91b6b88a120a6ce9eaf87fc581","objectId":"1","seq":431,"_id":"a0c9dbf4-1999-431b-80eb-04b227e87600","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"WARN","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-2]
+        No mapping for GET /api/alerts","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-2]
+        No mapping for GET /api/alerts","logSignature":"a2641a2de010f5ed08a94b47ebf5517badf3619ed88cef588d6f1922231e28b1","objectId":"1","seq":430,"_id":"3f4e5f27-1f8f-4d93-b608-95b21fa663ec","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"WARN","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-3]
+        No mapping for GET /api/incidents","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-3]
+        No mapping for GET /api/incidents","logSignature":"057e372bd76c0e08af8bf1727d8112c01ed43d17f137a2df26d65c199dbdd5a3","objectId":"1","seq":429,"_id":"0ddf186c-a26c-438c-8513-9dc7829d90a1","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"WARN","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-4]
+        No mapping for GET /api/checks","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-4]
+        No mapping for GET /api/checks","logSignature":"ef82abb5e2c01be646a708bfd3d3d56c738a0eeb7e21f20c85eed69505f31d72","objectId":"1","seq":428,"_id":"bcfaf06a-23b8-4774-b045-37b389b92a57","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-10]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-10]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","logSignature":"8bd25c8e0545a7b970839ba7817902e16a67dd753346683a07c83f4956fdabcd","objectId":"1","seq":427,"_id":"9a26438c-90c4-4be5-b8dd-864c8a659f9e","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-10]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-10]
+        DefaultUserService.authenticate","logSignature":"96506024e1859b5496078cd45fe1ee7eb6730f73cf926df5173805d5f58e68fa","objectId":"1","seq":426,"_id":"dad7aa09-ed07-441f-85c2-432318199db7","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-7]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-7]
+        CEF:0|MorpheusData|Morpheus|5.4.2|/oauth/token|null Created|src=10.132.0.251
+        suid=null suser=null request=http://10.132.0.153/oauth/token requestMethod=POST
+        cn2=null cn2Label=Account ID","logSignature":"c542c10cb8dc05e26ffe762dd3c6a5a1c0011a9284ae3ee5cad00b7ff578cf85","objectId":"1","seq":425,"_id":"556beaa7-36dc-4871-9ab8-ca4d0ea6a213","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:17:15Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-7]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-7]
+        DefaultUserService.authenticate","logSignature":"991efbcb8cdec7646aefae785484ed889b09c89593ef68a42427f5b8c9f5a143","objectId":"1","seq":424,"_id":"3e4c11ac-7638-4850-ba39-443d307eea04","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:12:35Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-5]
+        CEF:0|MorpheusData|Morpheus|5.4.2|security|Unknown User Login Attempt|cs1=rick
+        cs1Label=Username src=10.132.0.251","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-5]
+        CEF:0|MorpheusData|Morpheus|5.4.2|security|Unknown User Login Attempt|cs1=rick
+        cs1Label=Username src=10.132.0.251","logSignature":"eb8059a014fc333d73d23cf15cf61df45cfe9bebe25a3a16ff47976792ce717a","objectId":"1","seq":423,"_id":"c40eadde-dab2-4a8f-aa6f-2c6d349678ef","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:12:35Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-5]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-5]
+        DefaultUserService.authenticate","logSignature":"43f743894ba0183994c9d7b1fce128feddef644d742dd649a780cde4d1ad5505","objectId":"1","seq":422,"_id":"576e2b25-deee-427c-93a8-5df897c7334a","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:12:35Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-6]
+        CEF:0|MorpheusData|Morpheus|5.4.2|security|Unknown User Login Attempt|cs1=rick
+        cs1Label=Username src=10.132.0.251","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-6]
+        CEF:0|MorpheusData|Morpheus|5.4.2|security|Unknown User Login Attempt|cs1=rick
+        cs1Label=Username src=10.132.0.251","logSignature":"b1ce13180b7dc4f370ed1f1bc6d96ca278584fe2d751368efe5f7732442c01ea","objectId":"1","seq":421,"_id":"55a91b4c-5ef1-4f49-8616-bad0b5c73057","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:12:35Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-6]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-6]
+        DefaultUserService.authenticate","logSignature":"2b2ae93e670a5e16a1ba6ce6b842edf667fbbf91b6b88a120a6ce9eaf87fc581","objectId":"1","seq":420,"_id":"bb27d133-3f03-4f9a-b4b4-bb3987f10af9","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:12:35Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-2]
+        CEF:0|MorpheusData|Morpheus|5.4.2|security|Unknown User Login Attempt|cs1=rick
+        cs1Label=Username src=10.132.0.251","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-2]
+        CEF:0|MorpheusData|Morpheus|5.4.2|security|Unknown User Login Attempt|cs1=rick
+        cs1Label=Username src=10.132.0.251","logSignature":"44ab9565ac6baa111f1a8fd98734df57ab481e28a6830029da5233f1894d601e","objectId":"1","seq":419,"_id":"958426d6-85dd-4833-b525-e10753fbe0d3","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:12:35Z","level":"INFO","sourceType":"appliance","message":"[http-nio-127.0.0.1-8080-exec-2]
+        DefaultUserService.authenticate","hostname":"ubuntu","title":"[http-nio-127.0.0.1-8080-exec-2]
+        DefaultUserService.authenticate","logSignature":"26125eec2d53d2316ddb239b5be4c02db2db4985fe9641a93a42bc17ac3d7f6e","objectId":"1","seq":418,"_id":"27a9bcac-57ea-4ca8-9ab5-a8d34875dde7","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Index Rebuild Completed","hostname":"ubuntu","title":"[appJobLow-6] Index
+        Rebuild Completed","logSignature":"ffad92716a77761695b60ea4b3628780132db9f08d9a6c42077fda2879fbc4cc","objectId":"1","seq":417,"_id":"ee4dcd9f-3c6c-492c-9bc2-a4a03da96234","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for WikiPage","hostname":"ubuntu","title":"[appJobLow-6] Building
+        index for WikiPage","logSignature":"03832f2df14ef3e6b6fb90939e5574759efca29db3f717730d2d538054b2f528","objectId":"1","seq":416,"_id":"c387ef93-b461-489f-b575-505aef48bf73","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for InstanceTypeLayout","hostname":"ubuntu","title":"[appJobLow-6]
+        Building index for InstanceTypeLayout","logSignature":"f3da7c8484368c076559490db578258859cf99282f458a7f3208bfc264b32189","objectId":"1","seq":415,"_id":"5cf64b95-a904-401a-bbf8-3ec71578041f","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for InstanceType","hostname":"ubuntu","title":"[appJobLow-6]
+        Building index for InstanceType","logSignature":"9e633449630a587dd91b3eaafcdc946c4383074e9a7eab260cc8676fca3fc227","objectId":"1","seq":414,"_id":"254ba874-904c-40f9-8245-be022aa872bf","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for App","hostname":"ubuntu","title":"[appJobLow-6] Building
+        index for App","logSignature":"45742689961faf91af36fab84903f1461feb6b7339a518fdc5a125841b5f1b47","objectId":"1","seq":413,"_id":"9d559e8d-d751-4c38-a249-d6e7003b10cf","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for VirtualImage","hostname":"ubuntu","title":"[appJobLow-6]
+        Building index for VirtualImage","logSignature":"8ab17249f920aa06b98598650c9bd06aaa2c19272189284eb1dcf85f9b805ce0","objectId":"1","seq":412,"_id":"83830584-f045-425d-95e5-04790bf5532f","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for User","hostname":"ubuntu","title":"[appJobLow-6] Building
+        index for User","logSignature":"91bcbbf00f5d81d252887ed5a18bd6f9104a3019041fdfc1be266ad758edc075","objectId":"1","seq":411,"_id":"1aa61f1b-7524-4efe-a927-f7367a408304","signatureVerified":true},{"typeCode":"appliance","ts":"2022-02-01T16:11:00Z","level":"INFO","sourceType":"appliance","message":"[appJobLow-6]
+        Building index for Network","hostname":"ubuntu","title":"[appJobLow-6] Building
+        index for Network","logSignature":"1a6fea36d00db18bdab28f77cfc8abb4743e819ab4c2c75004180c470143e051","objectId":"1","seq":410,"_id":"f1d85472-891a-4fbf-b445-6defaae54631","signatureVerified":true}],"max":25,"grandTotal":395,"total":395,"success":true,"count":25,"meta":{"offset":0,"max":25,"size":25,"total":395}}'
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'default-src ''self'' https://www.gstatic.com *.githubusercontent.com data:
+        blob: ws: wss:; base-uri ''self''; object-src ''none''; script-src ''self''
+        ''nonce-PnljE0VVASOJoEXP'' ''unsafe-inline'' ''strict-dynamic''  https://www.gstatic.com;
+        style-src ''self'' ''unsafe-inline'' https://www.gstatic.com'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 01 Feb 2022 16:41:01 GMT
+      Expires:
+      - '-1'
+      Feature-Policy:
+      - vibrate 'none' ; microphone * ; camera 'none' ; gyroscope 'none' ; magnetometer
+        'none' ; geolocation 'none' ; midi 'self' ; notifications 'self' ; push 'self'
+        ; sync-xhr 'self'
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - same-origin
+      Set-Cookie:
+      - XSRF-TOKEN=8591dea5-6a02-4f18-8c36-c160d852c454; Path=/; Secure; HttpOnly
+      - JSESSIONID=03373D64D39D5120FBFBB13EAE6197AD; Path=/; Secure; HttpOnly
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+    status:
+      code: 200
+      message: ''
+version: 1

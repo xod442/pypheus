@@ -22,6 +22,8 @@ host = os.environ['HOST']
 username = os.environ['USERNAME']
 password = os.environ['PASSWORD']
 
+store = Storage(host,username,password)
+
 SKIPTEST=True
 
 #TODO TAKE OUT HARDCODED DATA LATER
@@ -38,44 +40,40 @@ class Storage(TestCase):
     """
     @vcr.use_cassette(cassette_library_dir='./test_pypheus/fixtures/cassettes')
 
-    def get_all_volumes(self):
+    def test_get_all_volumes(self):
         """
         Simple test to return volumes.
         :return:
         """
-        store = Storage(host,username,password)
         test_storage = store.get_all_volumes()
-        self.assertIs(type(test_storage), list)
-        self.assertIs(type(test_storage[0]), dict)
+        self.assertIs(type(test_storage['storageVolumes']), list)
+        self.assertIs(type(test_storage['storageVolumes'][0]), dict)
 
-    def get_all_buckets(self):
+    def test_get_all_buckets(self):
         """
         Simple test to return buckets.
         :return:
         """
-        store = Storage(host,username,password)
         test_storage = store.get_all_buckets()
-        self.assertIs(type(test_storage), list)
-        self.assertIs(type(test_storage[0]), dict)
+        self.assertIs(type(test_storage['storageBuckets']), list)
+        self.assertIs(type(test_storage['storageBuckets'][0]), dict)
 
-    def get_all_servers(self):
+    def test_get_all_servers(self):
         """
         Simple test to return storage servers.
         :return:
         """
-        store = Storage(host,username,password)
         test_storage = store.get_all_servers()
-        self.assertIs(type(test_storage), list)
-        self.assertIs(type(test_storage[0]), dict)
+        self.assertIs(type(test_storage['storageServers']), list)
+        self.assertIs(type(test_storage['storageServers'][0]), dict)
 
-    def get_all_server_types(self):
+    def test_get_all_server_types(self):
         """
         Simple test to return storage server-types.
         :return:
         """
-        store = Storage(host,username,password)
         test_storage = store.get_all_server_types()
-        self.assertIs(type(test_storage), list)
-        self.assertIs(type(test_storage[0]), dict)
+        self.assertIs(type(test_storage['storageServerTypes']), list)
+        self.assertIs(type(test_storage['storageServerTypes'][0]), dict)
 
-    v
+    

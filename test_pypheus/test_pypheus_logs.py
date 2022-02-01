@@ -22,6 +22,8 @@ host = os.environ['HOST']
 username = os.environ['USERNAME']
 password = os.environ['PASSWORD']
 
+logs = Logs(host,username,password)
+
 SKIPTEST=True
 
 #TODO TAKE OUT HARDCODED DATA LATER
@@ -38,12 +40,11 @@ class Logs(TestCase):
     """
     @vcr.use_cassette(cassette_library_dir='./test_pypheus/fixtures/cassettes')
 
-    def get_all_logs(self):
+    def test_get_all_logs(self):
         """
         Simple test to return all logs.
         :return:
         """
-        logs = Logs(host,username,password)
         test_logs = logs.get_all_logs()
-        self.assertIs(type(test_logs), list)
-        self.assertIs(type(test_logs[0]), dict)
+        self.assertIs(type(test_logs['data']), list)
+        self.assertIs(type(test_logs['data'][0]), dict)

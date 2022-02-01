@@ -1,0 +1,60 @@
+interactions:
+- request:
+    body: username=rick&password=ilike2Rock2
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: http://10.132.0.153/oauth/token?grant_type=password&scope=write&client_id=morph-api
+  response:
+    body:
+      string: '{"error":"invalid_grant","error_description":"Bad credentials"}'
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'default-src ''self'' https://www.gstatic.com *.githubusercontent.com data:
+        blob: ws: wss:; base-uri ''self''; object-src ''none''; script-src ''self''
+        ''nonce-0wuf9uttUYoLCSPH'' ''unsafe-inline'' ''strict-dynamic''  https://www.gstatic.com;
+        style-src ''self'' ''unsafe-inline'' https://www.gstatic.com'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 01 Feb 2022 16:12:33 GMT
+      Expires:
+      - '-1'
+      Feature-Policy:
+      - vibrate 'none' ; microphone * ; camera 'none' ; gyroscope 'none' ; magnetometer
+        'none' ; geolocation 'none' ; midi 'self' ; notifications 'self' ; push 'self'
+        ; sync-xhr 'self'
+      Pragma:
+      - no-cache
+      - no-cache
+      Referrer-Policy:
+      - same-origin
+      Set-Cookie:
+      - XSRF-TOKEN=576838ca-91e3-43bc-9862-2d367290ece0; Path=/; Secure; HttpOnly
+      - JSESSIONID=AD5DF2209EC251D3ABA15DFF5EABDE81; Path=/; Secure; HttpOnly
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 400
+      message: ''
+version: 1
