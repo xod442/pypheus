@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - BEARER 0d67fbf0-a9d2-4d30-8e69-9caa6dacf21b
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://10.132.0.153/api/checks
+  response:
+    body:
+      string: '{"success":false,"msg":"Unable to find api endpoint GET /api/checks"}'
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - 'default-src ''self'' https://www.gstatic.com *.githubusercontent.com data:
+        blob: ws: wss:; base-uri ''self''; object-src ''none''; script-src ''self''
+        ''nonce-y1UZ40xezd6kGU7E'' ''unsafe-inline'' ''strict-dynamic''  https://www.gstatic.com;
+        style-src ''self'' ''unsafe-inline'' https://www.gstatic.com'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 01 Feb 2022 17:49:26 GMT
+      Expires:
+      - '-1'
+      Feature-Policy:
+      - vibrate 'none' ; microphone * ; camera 'none' ; gyroscope 'none' ; magnetometer
+        'none' ; geolocation 'none' ; midi 'self' ; notifications 'self' ; push 'self'
+        ; sync-xhr 'self'
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - same-origin
+      Set-Cookie:
+      - XSRF-TOKEN=6ac23bf3-a8c9-4dc0-8248-d840ce80a241; Path=/; Secure; HttpOnly
+      - JSESSIONID=5EA1757E831EBAB089EF809078D4CB21; Path=/; Secure; HttpOnly
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 404
+      message: ''
+version: 1
