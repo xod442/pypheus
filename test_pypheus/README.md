@@ -8,12 +8,15 @@ API calls have been recorded using the vcrpy library.
 Travis-CI has been used for continuous testing.
 
 ## The VCR tests require environment variables:
+```
 export HOST='<ip address or FQDN>'
 export USERNAME='<username>'
 export PASSWORD='<password>'
-
-python3 -m nose test_pypheus_network.py will run the network tests
-
+```
+## To run the tests:
+```
+python3 -m nose test_pypheus_network.py
+```
 ##--------------------------------------------------------------------------------------
 After the first run of the nose test, cassettes will be automatically generated
 and placed in the cassettes directory.
