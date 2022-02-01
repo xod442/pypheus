@@ -17,7 +17,7 @@ export PASSWORD='<password>'
 ```
 python3 -m nose test_pypheus_network.py
 ```
-##--------------------------------------------------------------------------------------
+
 After the first run of the nose test, cassettes will be automatically generated
 and placed in the cassettes directory.
 
